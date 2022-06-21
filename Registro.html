@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tercer Desafio</title>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/597f0ffbfc.js" crossorigin="anonymous"></script>
+    <meta name="viewport"
+        content="width=device=width, user-scalable=no, initial-scale=1.0, maximum scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header class="header" >
+        <img class="logo" src="./assets/img/LOGO GOODDOLLAR 4.png" alt="">
+        <nav data-aos="fade-right">
+            <ul>
+                <li><a class="inicio" href="./index.html">Inicio</a></li>
+                <li><a class="Registro" href="./Registro.html">Registro</a></li>
+                <li><a class="mi perfil" href="./Perfil.html">Mi perfil</a></li>
+                <li><a href="./Quienes_somos.html">¿Quienes somos?</a></li>
+                <li><a href="./Product_1.html">Producto</a></li>
+            </ul>
+        </nav>
+        <button>Publicar</button>
+    </header>
+    <main class="main">
+        <h1 class="h1_registro">Registro</h1>
+        <div class="formularios">
+            <Form class="form" data-aos="zoom-out-down" action="">
+                <div class="form_1">
+                    <div>
+                        <p>Nombre:</p>
+                        <input type="text" name="nombre" placeholder="ingrese su nombre" required>
+                    </div>
+
+                    <div>
+                        <p>Apellido:</p>
+                        <input type="text" name="apellido" placeholder="ingrese su apeliido" required>
+                    </div>
+
+                    <div>
+                        <p>Telefono:</p>
+                        <input type="tel" name="telefono" placeholder="ingrese su nombre" required>
+                    </div>
+
+                    <div>
+                        <p>Dirección:</p>
+                        <input type="text" name="direccion" placeholder="ingrese su dirección" required>
+                    </div>
+
+                    <div>
+                        <p>Correo electronico:</p>
+                        <input type="email" name="correo" placeholder="ingrese su correo" required>
+                    </div>
+
+                    <div>
+                        <p>País:</p>
+                        <input type="text" name="pais" placeholder="ingrese su país" required>
+                    </div>
+
+                    <div>
+                        <p>Celular:</p>
+                        <input type="tel" name="celular" placeholder="Ingrese su celular">
+                    </div>
+                    <!-- <div><button type="reset">Limpiar</button></div> -->
+                </div>
+
+                <div class="form_2">
+                    
+                    <p>Sexo:</p>
+                    <label for="hombre">Hombre</label>
+                    <input type="radio" name="sexo" id="hombre" value="h">
+
+                    <label for="mujer">Mujer</label>
+                    <input type="radio" name="sexo" id="mujer" value="m">
+
+                    <label for="noBinario">No binario</label>
+                    <input type="radio" name="sexo" id="noBinario" value="nB">
+
+                    <label for="aceptaTerminos"> Acepta Terminos y condiciones</label>
+                    <input type="checkbox" name="aceptaTerminos" id="" value="acepto">
+
+                    <div class="registrarse"><button name="registrarse" id="">Registarse</button>
+                </div>
+        </div>
+        </Form>
+    </main>
+    <footer class="footer">
+        <h5>Redes</h5>
+        <ol>
+            <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li><a href="https://twitter.com/home"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+        </ol>
+        <h6>2022 MAMQ, todos los derechos reservados.</h6>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
