@@ -423,3 +423,23 @@ html, body {
     font-size: 1.5rem;
     justify-content: center;
 }
+
+.direccion{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 2rem 0rem 0rem 0rem;
+    padding: 0px;
+}
+.direccion p{
+
+    padding: 0px;
+}
+
+.direccion h2{
+    margin-bottom: 1.5rem;
+}
+
+.mapa{
+    border-radius: 20px;
+}
