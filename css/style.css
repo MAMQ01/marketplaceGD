@@ -54,6 +54,7 @@ html, body {
 .main {
     grid-area: main;
     background-color: #141D3C;
+    color: #ffffff;
 }
 
 
@@ -210,7 +211,9 @@ html, body {
     padding: 1rem;
     gap: 2rem;
     font-size: 20px;
+justify-content: center;
 }
+
 
 .footer ol {
     list-style: none;
@@ -222,11 +225,6 @@ html, body {
     text-decoration: none;
     padding: 1rem;
     border-right: 1px solid#000;
-}
-
-.quienes_somos {
-    color: #000;
-    font-style: normal;
 }
 
 .redes {
@@ -271,8 +269,16 @@ html, body {
     .aside_container {
         flex-direction: column;
         justify-content: center;
-        gap: 2rem;
+        gap: 1rem;
+        padding: 1rem;
     }
+
+    /* .main_contacto{
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+        padding: 1rem;
+    } */
 
     .aside {
         width: 100%;
@@ -297,6 +303,13 @@ html, body {
     }
 }
 
+
+
+
+
+
+
+
 /* .form_1{
     background-color: #02AFFE;
     justify-content: space-between;
@@ -304,39 +317,6 @@ html, body {
     align-items: center;
 } */
 
-
-.main_quienes{
-    flex-direction:row;
-    background-color:#141D3C;
-    padding: 1.5rem;
-    color: white;
-    justify-content: center;
-}
-
-.main_quienes h1{
-    padding-bottom: 0.3rem;
-    display: flex;
-    justify-content: center;
-}
-
-.main_quienes div{
-    flex-wrap: wrap;
-    align-content: center;
-}
-
-.main_quienes p{
-    padding-bottom: 2rem;
-}
-
-.main_quienes img{
-    flex-direction: flex;
-    /* width: 15rem; */
-    padding-right: 1.5rem;
-    padding-left: 1.5rem;
-    padding-bottom: 1rem;
-    /* padding-top: 1rem; */
-    justify-content: center;
-}
 
 .formularios{
     display: flex;
@@ -386,60 +366,73 @@ html, body {
     align-items: center;
  */
 
-
-.main_quienes div{
-    flex-wrap: wrap;
-    align-content: center;
-}
-
-.main_quienes{
-    flex-direction:row;
-    background-color:#141D3C;
-    padding: 1.5rem;
-    color: white;
-    justify-content: center;
-}
-
-.main_quienes p{
-    padding-bottom: 2rem;
-}
-
-.main_quienes h1{
-    padding-bottom: 1.5rem;
-}
-
-.main_quienes img{
-    flex-direction: flex;
-    /* width: 15rem; */
-    padding-right: 1.5rem;
-    padding-left: 1.5rem;
-    padding-bottom: 1rem;
-    /* padding-top: 1rem; */
-    justify-content: center;
-}
-
-.main_quienes h1{
-    display: flex;
-    font-size: 1.5rem;
-    justify-content: center;
-}
-
-.direccion{
+.mainContacto{
     display: flex;
     flex-direction: column;
+    padding: 1rem;
+    margin-top: 0.3rem;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+}
+
+.carruselContacto{
+
+    justify-content: center;
+}
+
+.textoContacto p{
+    width: 100%;
+    text-align:justify;
+    padding: 0.5rem;
+    margin: 0.1rem;
+}
+
+.textoContacto h1{
+    width: 100%;
     text-align: center;
-    margin: 2rem 0rem 0rem 0rem;
-    padding: 0px;
-}
-.direccion p{
-
-    padding: 0px;
 }
 
-.direccion h2{
-    margin-bottom: 1.5rem;
+.descripccionContacto{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.carruselesContacto{
+    justify-content: center;
+    width: 100%;
+    max-width: 25em;
+    margin: 2rem;
+}
+
+
+/* .carruselesContacto{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+} */
+
+.ubicacion{
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.ubicacionTexto{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: left;
 }
 
 .mapa{
-    border-radius: 20px;
+    display: flex;
+    max-width: 37.5em;
+    justify-content: center;
 }
