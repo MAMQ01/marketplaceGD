@@ -55,6 +55,7 @@ html, body {
     grid-area: main;
     background-color: #141D3C;
     color: #ffffff;
+    justify-content: center;
 }
 
 
@@ -211,7 +212,7 @@ html, body {
     padding: 1rem;
     gap: 2rem;
     font-size: 20px;
-justify-content: center;
+    justify-content: center;
 }
 
 
@@ -366,48 +367,51 @@ justify-content: center;
     align-items: center;
  */
 
+
 .mainContacto{
     display: flex;
     flex-direction: column;
+    width: 100%;
     padding: 1rem;
     margin-top: 0.3rem;
-    width: 100%;
-    align-content: center;
+    text-align:justify;
     align-items: center;
+
 }
 
-.carruselContacto{
+..textoContacto{
+    width: 100%;
+    padding: 1rem;
+}
 
-    justify-content: center;
+.textoContacto h1{
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-top: 0.5rem;
 }
 
 .textoContacto p{
     width: 100%;
-    text-align:justify;
-    padding: 0.5rem;
-    margin: 0.1rem;
+    padding: 2.5rem;
 }
 
-.textoContacto h1{
-    width: 100%;
-    text-align: center;
-}
-
-.descripccionContacto{
+/* .descripccionContacto{
     display: flex;
     flex-direction: column;
     justify-content:center;
     align-items: center;
     padding: 2rem;
-}
+} */
+
 
 .carruselesContacto{
     justify-content: center;
     width: 100%;
-    max-width: 25em;
-    margin: 2rem;
+    max-width: 27.5em;
+    padding: 1rem 0rem 1rem 0rem;
+    margin: 1rem;
+    padding: 1rem;
 }
-
 
 /* .carruselesContacto{
     display: flex;
@@ -417,22 +421,26 @@ justify-content: center;
     justify-content: center;
 } */
 
+.ubicacionContainer{
+    margin-bottom: 1rem;
+    width: 70%;
+    max-width: 30.5em;
+}
+
 .ubicacion{
     width: 100%;
-    justify-content: center;
-    flex-wrap: wrap;
-    
 }
 
 .ubicacionTexto{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
     text-align: left;
+    color: white;
 }
 
-.mapa{
-    display: flex;
-    max-width: 37.5em;
-    justify-content: center;
+.ubicacionTexto p{
+    font-size: 1.5rem;
 }
+
+.ubicacionTexto h2{
+    font-weight: 500;
+}
+
