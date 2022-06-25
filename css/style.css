@@ -350,6 +350,9 @@ html, body {
     flex-direction: column;
 }
 
+.form p{
+    color: #000;
+}
 
 .form input{
     padding: 0.15rem;
@@ -359,6 +362,12 @@ html, body {
     font-family:Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     width: 100%;
+}
+
+.form input:focus{
+    outline: none;
+    border: 2px solid #f8af40;
+    border-radius: 2px;
 }
 /* .form_1{
     background-color: #02AFFE;
