@@ -388,7 +388,7 @@ html, body {
 
 }
 
-..textoContacto{
+.textoContacto{
     width: 100%;
     padding: 1rem;
 }
@@ -452,4 +452,5 @@ html, body {
 .ubicacionTexto h2{
     font-weight: 500;
 }
+
 
